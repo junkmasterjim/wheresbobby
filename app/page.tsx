@@ -49,7 +49,7 @@ const Page = () => {
 								</Link>
 
 								{/* <iframe
-								src={`https://www.google.com/maps/embed/v1/view?key=1&center=${geo.longitude},${geo.latitude}&maptype=satellite&zoom=16`}
+								src={`https://www.google.com/maps/embed/v1/view?key=API_KEY&center=${geo.longitude},${geo.latitude}&maptype=satellite&zoom=16`}
 								width="600"
 								height="450"
 								style={{ border: 0 }}
