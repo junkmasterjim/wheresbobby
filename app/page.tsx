@@ -63,17 +63,20 @@ const Page = () => {
 					</div>
 				</div>
 
-				<p className="text-sm text-muted-foreground">
-					Made with 🥩 by{" "}
-					<Link
-						href={"https://npitt.dev"}
-						target="_blank"
-						rel="noreferrer noopener"
-						className="underline hover:text-foreground transition-colors"
-					>
-						Noah Pittman
-					</Link>
-				</p>
+				<div className="text-muted-foreground">
+					<p className="text-sm">
+						Made with 🥩 by{" "}
+						<Link
+							href={"https://npitt.dev"}
+							target="_blank"
+							rel="noreferrer noopener"
+							className="underline hover:text-foreground transition-colors"
+						>
+							Noah Pittman
+						</Link>
+					</p>
+					<p className="text-xs">created for my friend Bobby.</p>
+				</div>
 			</div>
 		</>
 	);
