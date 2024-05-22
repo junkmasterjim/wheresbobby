@@ -34,7 +34,7 @@ const Page = () => {
 						{!geo.loading && !geo.error && (
 							<>
 								<p>
-									You are at {geo.altitude?.toPrecision(2)} meters above sea
+									You are at {geo.altitude?.toPrecision(4)} meters above sea
 									level.
 								</p>
 								<p>
