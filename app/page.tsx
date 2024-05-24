@@ -16,6 +16,9 @@ const Page = () => {
 					<h2 className="font-medium text-muted-foreground text-sm">
 						A simple tool to find your location's elevation and coordinates.
 					</h2>
+					<p className="text-xs text-muted-foreground">
+						results may not be 100% accurate
+					</p>
 
 					<div className="flex flex-col text-center items-center gap-6 mt-12">
 						{geo.loading ? <Loader className="animate-spin size-8" /> : null}
