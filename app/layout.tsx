@@ -20,9 +20,10 @@ export default function RootLayout({
 				className={cn(
 					GeistSans.className,
 					"antialiased",
-					"bg-[radial-gradient(ellipse_at_bottom_left,#ff6e7f50,#bfe9ff)]"
+					"bg-gradient-to-t from-[#D4D4D4] to-[#FAFAFA]"
 				)}
 			>
+				<div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-teal-400 via-emerald-500 to-green-600 -z-10 opacity-10" />
 				{children}
 			</body>
 		</html>
